@@ -1,0 +1,10 @@
+$ python chat.py
+Connected to harness support_chatbot (session d1a2a931-75fd-4531-b835-359e0edbc4e2-support-chat).
+Type a message, or 'quit' to exit.
+
+you> How long do I have to return something I bought?
+bot> <thinking> The question is about the return policy, which is covered in the FAQ under "Returns & Refunds". The most specific entry for this question is FAQ item 11, which states the time limit for returns. </thinking>
+
+You can return most items within 30 days of delivery as long as they’re unused and in original packaging (unless the item arrived defective).
+
+you> quit

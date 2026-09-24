@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Written by setup_gateway.py / create_harness.py: your deployment's resource IDs
+chatbot/agentcore_config.json
+# Written by generate-eval-dataset.py (the evaluated runs are committed under evaluation/)
+chatbot/output_eval_dataset.jsonl
+
+# Local secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

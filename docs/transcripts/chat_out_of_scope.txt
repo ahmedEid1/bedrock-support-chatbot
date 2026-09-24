@@ -1,0 +1,10 @@
+$ python chat.py
+Connected to harness support_chatbot (session ae4acd9a-0980-47c1-801a-708ef110f0a1-support-chat).
+Type a message, or 'quit' to exit.
+
+you> Can you help me write a cover letter for a job application?
+bot> <thinking> The customer's request is not related to the shop's operations, website functionality, or any topic covered in the FAQ. It is a request for assistance with a job application, which falls outside the scope of the support I can provide. Therefore, I classify this as OTHER and refer the customer to the human support team. </thinking>
+
+I'm sorry, but I can't help with that here. Please call our human support team at +1 (800) 555-0147, Monday to Friday (excluding holidays). I can help with problems on our website and with questions about orders, shipping, returns and payments.
+
+you> quit

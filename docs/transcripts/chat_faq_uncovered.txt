@@ -1,0 +1,10 @@
+$ python chat.py
+Connected to harness support_chatbot (session 4d903d65-d01a-49d3-9a85-24bc701d468f-support-chat).
+Type a message, or 'quit' to exit.
+
+you> Do you offer a price match if I find the same item cheaper somewhere else?
+bot> <thinking> The customer's question is about the shop's policy on price matching, which is not covered in the provided FAQ. Therefore, I will classify this as OTHER and refer the customer to the human support team. </thinking>
+
+I'm sorry, but I can't help with that here. Please call our human support team at +1 (800) 555-0147, Monday to Friday (excluding holidays).
+
+you> quit
