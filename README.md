@@ -15,6 +15,14 @@ It's built on AgentCore's managed **harness** with Amazon Nova Pro, and driven b
 > [Future AWS Agent Engineer Nanodegree](https://www.udacity.com/scholarships/aws-ai-ml-scholars).
 > My notes and the other projects from the program: **[aws-agent-engineer-notes](https://github.com/ahmedEid1/aws-agent-engineer-notes)**.
 
+## Origin
+
+Built for the Future AWS Agent Engineer Nanodegree on Udacity's starter code (`project/starter` in [udacity/aws-c1-prompting-llm-reasoning-nd905-cd14762-project](https://github.com/udacity/aws-c1-prompting-llm-reasoning-nd905-cd14762-project/tree/main/project/starter)).
+
+- **From the starter, unchanged:** both CloudFormation templates, the bug-report Lambda (`create_bug_report.py`), `setup_gateway.py`, `create_harness.py`, `cleanup_agentcore.py`, `requirements.txt` and the FAQ (`online_shop_faq.md`).
+- **From the starter, changed by me:** `chat.py` and `generate-eval-dataset.py`. Both now give each conversation its own memory actor, and the dataset script strips `<thinking>` text before judging.
+- **Mine:** the system prompt (the starter's `system_prompt.txt` held only instructions and the `{{FAQ}}` placeholder), the 16 test cases in `harness-tests.json` (the starter had a one-entry template), `multiturn_bug_test.py`, `record_chat.py`, the datasets, judge output and multi-turn results in `evaluation/`, and the write-up, transcripts and screenshots in `docs/`.
+
 ## How it works
 
 ```mermaid
@@ -109,4 +117,4 @@ python cleanup_agentcore.py    # then empty the eval bucket and delete both stac
 
 ## Credits and license
 
-Built on Udacity's project starter: the CloudFormation templates, the Lambda, the setup, chat, dataset and cleanup scripts, and the FAQ. The system prompt, the test suite, the multi-turn tests, the evaluation and the fixes to the scripts are my work. Udacity's starter material is licensed under the terms in [LICENSE.md](LICENSE.md) (CC BY-NC-ND 4.0 with Udacity's modifications).
+[Origin](#origin) lists which parts came from Udacity's starter and which are mine. Udacity's starter material is licensed under the terms in [LICENSE.md](LICENSE.md) (CC BY-NC-ND 4.0 with Udacity's modifications).
